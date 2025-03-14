@@ -38,13 +38,14 @@ const Home = ({ clotheDisplayImg }) => {
           alt=""
           className="w-fit h-[80vh] object-cover rounded-xl shadow-2xl mx-28 hover:scale-105 transition-transform duration-500 ease-out cursor-pointer animate-fade-up animate-once animate-ease-in -translate-y-3"
         />
-        <div className="flex gap-3">
+        <div className="flex gap-3 -translate-y-1 ">
           <button
             onClick={() =>
               setIndex((prevIndex) =>
                 index === 0 ? clotheDisplayImg.length - 1 : prevIndex - 1
               )
             }
+            className="p-1 rounded-full cursor-pointer"
           >
             <ArrowLeft />
           </button>
@@ -94,6 +95,7 @@ const Home = ({ clotheDisplayImg }) => {
             onClick={() =>
               setIndex((prevIndex) => (prevIndex + 1) % clotheDisplayImg.length)
             }
+            className="rounded-full cursor-pointer"
           >
             <ArrowRight />
           </button>
