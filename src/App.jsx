@@ -3,6 +3,13 @@ import logo from "../public/Logo.png";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Features from "./components/Features";
+import Discover from "./components/Discover";
+import discoverImg from "../public/WomenClothes/discover.jpg";
+import Explore from "./components/Explore";
+import exploreImg from "../public/WomenClothes/exploreImg.jpg";
+import Testimonials from "./components/Testimonials";
+import Shop from "./components/Shop";
+import FAQs from "./components/FAQs";
 
 function App() {
   const clothesDisplayImg = [
@@ -22,6 +29,11 @@ function App() {
       <NavBar logo={logo} />
       <Home clotheDisplayImg={clothesDisplayImg} />
       <Features />
+      <Discover discoverImg={discoverImg} />
+      <Explore exploreImg={exploreImg} />
+      <Testimonials />
+      <Shop />
+      <FAQs />
     </div>
   );
 }

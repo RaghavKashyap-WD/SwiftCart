@@ -4,7 +4,7 @@ import React from "react";
 const Features = () => {
   return (
     <div className="w-full h-[965px] bg-[#eeeef8] flex py-[112px] items-center flex-col">
-      <div className="text-center w-[768px] h-[261px] flex flex-col gap-5 mb-[80px]">
+      <div className="text-center w-[768px] h-[261px] flex flex-col gap-5 my-[80px]">
         <h3 className="text-lg font-semibold">Features</h3>
         <h1 className="text-5xl font-serif">
           Explore Our Exceptional Service Offerings
@@ -42,10 +42,10 @@ const Features = () => {
       </div>
 
       <div className="flex gap-10 items-center justify-center">
-        <button className="bg-gray-300 p-3 text-xl hover:bg-gray-400 rounded-sm">
+        <button className="bg-gray-300 p-3 text-xl hover:bg-gray-400 rounded-sm cursor-pointer">
           Learn More
         </button>
-        <button className="text-xl">Sign Up</button>
+        <button className="text-xl cursor-pointer">Sign Up</button>
         <ChevronRight size={25} />
       </div>
     </div>
