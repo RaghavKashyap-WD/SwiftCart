@@ -82,12 +82,12 @@ const Home = ({ clotheDisplayImg }) => {
             ></span>
             <span
               className={`w-[10px] h-[10px] ${
-                index === 6 ? "bg-gray-800 scale-110" : "bg-gray-600"
+                index === 6 ? "bg-gray-800 scale-140" : "bg-gray-600"
               } rounded-full`}
             ></span>
             <span
               className={`w-[10px] h-[10px] ${
-                index === 7 ? "bg-gray-800 scale-110" : "bg-gray-600"
+                index === 7 ? "bg-gray-800 scale-140" : "bg-gray-600"
               } rounded-full`}
             ></span>
           </div>
