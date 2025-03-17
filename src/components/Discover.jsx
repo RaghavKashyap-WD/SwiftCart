@@ -17,7 +17,7 @@ const Discover = ({ discoverImg }) => {
         <img
           src={discoverImg}
           alt="img"
-          className="w-[616px] h-[640px] rounded-4xl"
+          className="w-[616px] h-[640px] rounded-4xl hover:scale-105 transition-transform duration-500 ease-out cursor-pointer"
         />
       </div>
     </div>

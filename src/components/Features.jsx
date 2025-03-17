@@ -42,7 +42,7 @@ const Features = () => {
       </div>
 
       <div className="flex gap-10 items-center justify-center">
-        <button className="bg-gray-300 p-3 text-xl hover:bg-gray-400 rounded-sm cursor-pointer">
+        <button className="bg-gray-300 p-3 text-xl hover:bg-gray-400 transition-colors duration-300 ease-out rounded-sm cursor-pointer">
           Learn More
         </button>
         <button className="text-xl cursor-pointer">Sign Up</button>

@@ -28,10 +28,10 @@ const NavBar = ({ logo }) => {
           </button> */}
         </div>
         <div className="mx-20 flex gap-5">
-          <button className="w-[63px] h-[40px] bg-gray-100 text-center hover:bg-gray-200">
+          <button className="w-[63px] h-[40px] bg-gray-100 text-center hover:bg-gray-200 transition-colors duration-300 cursor-pointer ease-out">
             Go
           </button>
-          <button className="w-[70px] h-[40px] bg-black hover:bg-zinc-800 text-white">
+          <button className="w-[70px] h-[40px] bg-black hover:bg-zinc-800 transition-colors duration-300 ease-out cursor-pointer text-white">
             Join
           </button>
         </div>

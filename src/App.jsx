@@ -10,6 +10,8 @@ import exploreImg from "../public/WomenClothes/exploreImg.jpg";
 import Testimonials from "./components/Testimonials";
 import Shop from "./components/Shop";
 import FAQs from "./components/FAQs";
+import Footer from "./components/Footer";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   const clothesDisplayImg = [
@@ -33,7 +35,9 @@ function App() {
       <Explore exploreImg={exploreImg} />
       <Testimonials />
       <Shop />
+      <ContactUs />
       <FAQs />
+      <Footer logo={logo} />
     </div>
   );
 }

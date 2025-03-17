@@ -24,10 +24,10 @@ const Home = ({ clotheDisplayImg }) => {
           online experience tailored just for you.
         </p>
         <div className="flex gap-[16px]">
-          <button className="p-3 bg-black hover:bg-zinc-800 text-white w-[89px]">
+          <button className="p-3 bg-black hover:bg-zinc-800 transition-colors duration-300 ease-out cursor-pointer text-white w-[89px]">
             Shop
           </button>
-          <button className="bg-gray-100 hover:bg-gray-200 w-[139px]">
+          <button className="bg-gray-100 hover:bg-gray-200 transition-colors duration-300 ease-out cursor-pointer w-[139px]">
             Learn More
           </button>
         </div>

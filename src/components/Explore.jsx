@@ -37,7 +37,7 @@ const Explore = ({ exploreImg }) => {
           </div>
 
           <div className="w-[184px] h-[44px] flex gap-2">
-            <button className="bg-gray-300 hover:bg-gray-400 w-[89px] h-[44px] cursor-pointer text-xl rounded-sm">
+            <button className="bg-gray-300 hover:bg-gray-400 transition-colors duration-300 ease-out w-[89px] h-[44px] cursor-pointer text-xl rounded-sm">
               Shop
             </button>
             <button className="w-[89px] h-[44px] cursor-pointer ">
@@ -50,7 +50,7 @@ const Explore = ({ exploreImg }) => {
           <img
             src={exploreImg}
             alt="img"
-            className="w-[540px] h-[640px] rounded-4xl"
+            className="w-[540px] h-[640px] rounded-4xl hover:scale-105 transition-transform duration-500 ease-out cursor-pointer"
           />
         </div>
       </div>
