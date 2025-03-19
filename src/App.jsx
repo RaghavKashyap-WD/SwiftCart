@@ -31,6 +31,7 @@ function App() {
 
   return (
     <div>
+      <Analytics />
       <NavBar logo={logo} setIsVisible={setIsVisible} isVisible={isVisible} />
       <MoreLinks isVisible={isVisible} />
       <Home clotheDisplayImg={clothesDisplayImg} />
