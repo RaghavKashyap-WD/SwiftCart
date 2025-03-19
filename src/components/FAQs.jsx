@@ -3,7 +3,7 @@ import React from "react";
 
 const FAQs = () => {
   return (
-    <div className="bg-[#444458] py-28 px-16">
+    <div id="faqs" className="bg-[#444458] py-28 px-16">
       <div className="flex flex-col gap-20 justify-center items-center">
         <div className="flex flex-col gap-6 text-center text-white">
           <h1 className="text-4xl font-serif">FAQs</h1>
@@ -16,7 +16,7 @@ const FAQs = () => {
 
       <div className="flex flex-col gap-8 justify-center items-center mt-20">
         <div className="flex flex-col gap-4 justify-center items-center">
-          <div className="flex flex-col gap-6 text-white rounded-3xl w-[768px] h-[144px] bg-[#333342] px-6 py-5">
+          <div className="flex flex-col gap-6 text-white rounded-3xl max-w-[768px] max-h-[144px] bg-[#333342] px-6 py-5">
             <div className="flex flex-col gap-4">
               <div className="flex items-center justify-between">
                 <h5 className="font-sans font-semibold text-xl">
@@ -33,7 +33,7 @@ const FAQs = () => {
           </div>
         </div>
         <div className="flex flex-col gap-4 justify-center items-center">
-          <div className="flex flex-col gap-6 text-white rounded-3xl w-[768px] h-[144px] bg-[#333342] px-6 py-5">
+          <div className="flex flex-col gap-6 text-white rounded-3xl max-w-[768px] max-h-[144px] bg-[#333342] px-6 py-5">
             <div className="flex flex-col gap-4">
               <div className="flex items-center justify-between">
                 <h5 className="font-sans font-semibold text-xl">
@@ -50,7 +50,7 @@ const FAQs = () => {
           </div>
         </div>
         <div className="flex flex-col gap-4 justify-center items-center">
-          <div className="flex flex-col gap-6 text-white rounded-3xl w-[768px] h-[144px] bg-[#333342] px-6 py-5">
+          <div className="flex flex-col gap-6 text-white rounded-3xl max-w-[768px] max-h-[144px] bg-[#333342] px-6 py-5">
             <div className="flex flex-col gap-4">
               <div className="flex items-center justify-between">
                 <h5 className="font-sans font-semibold text-xl">
@@ -67,7 +67,7 @@ const FAQs = () => {
           </div>
         </div>
         <div className="flex flex-col gap-4 justify-center items-center">
-          <div className="flex flex-col gap-6 text-white rounded-3xl w-[768px] h-[144px] bg-[#333342] px-6 py-5">
+          <div className="flex flex-col gap-6 text-white rounded-3xl max-w-[768px] max-h-[144px] bg-[#333342] px-6 py-5">
             <div className="flex flex-col gap-4">
               <div className="flex items-center justify-between">
                 <h5 className="font-sans font-semibold text-xl">
@@ -84,7 +84,7 @@ const FAQs = () => {
           </div>
         </div>
         <div className="flex flex-col gap-4 justify-center items-center">
-          <div className="flex flex-col gap-6 text-white rounded-3xl w-[768px] h-[144px] bg-[#333342] px-6 py-5">
+          <div className="flex flex-col gap-6 text-white rounded-3xl max-w-[768px] max-h-[144px] bg-[#333342] px-6 py-5">
             <div className="flex flex-col gap-4">
               <div className="flex items-center justify-between">
                 <h5 className="font-sans font-semibold text-xl">
@@ -108,9 +108,11 @@ const FAQs = () => {
           We're here to help you with any inquiries.
         </span>
         <div className="bg-white/10 rounded-md hover:bg-white/20 transition-colors duration-300 ease-out">
-          <button className="text-lg w-[112px] h-[44px] cursor-pointer">
-            Contact
-          </button>
+          <a href="#contactus">
+            <span className="text-lg flex items-center justify-center max-w-[112px] max-h-[44px] cursor-pointer">
+              Contact
+            </span>
+          </a>
         </div>
       </div>
     </div>

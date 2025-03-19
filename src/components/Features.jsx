@@ -3,8 +3,11 @@ import React from "react";
 
 const Features = () => {
   return (
-    <div className="w-full h-[965px] bg-[#eeeef8] flex py-[112px] items-center flex-col">
-      <div className="text-center w-[768px] h-[261px] flex flex-col gap-5 my-[80px]">
+    <div
+      id="features"
+      className="max-w-full max-h-[965px] bg-[#eeeef8] flex py-[112px] items-center flex-col"
+    >
+      <div className="text-center max-w-[768px] max-h-[261px] flex flex-col gap-5 my-[80px]">
         <h3 className="text-lg font-semibold">Features</h3>
         <h1 className="text-5xl font-serif">
           Explore Our Exceptional Service Offerings
@@ -16,7 +19,7 @@ const Features = () => {
         </span>
       </div>
       <div className="flex gap-10 mb-[80px]">
-        <div className="w-[406px] h-[228px] flex flex-col gap-3 items-center">
+        <div className="max-w-[406px] max-h-[228px] flex flex-col gap-3 items-center">
           <Box size={35} />
           <h5 className="text-3xl font-serif text-center">
             Enjoy Free Shipping on All Orders
@@ -24,7 +27,7 @@ const Features = () => {
           <span>Get your products delivered without any shipping fees</span>
         </div>
 
-        <div className="w-[406px] h-[228px] flex flex-col gap-3 items-center">
+        <div className="max-w-[406px] max-h-[228px] flex flex-col gap-3 items-center">
           <Box size={35} />
           <h5 className="text-3xl font-serif text-center">
             24/7 Customer Support for Your Convenience
@@ -32,7 +35,7 @@ const Features = () => {
           <span>Our dedicated team is here to assist you anytime.</span>
         </div>
 
-        <div className="w-[406px] h-[228px] flex flex-col gap-3 items-center">
+        <div className="max-w-[406px] max-h-[228px] flex flex-col gap-3 items-center">
           <Box size={35} />
           <h5 className="text-3xl font-serif text-center">
             100% Money-Back Guarantee for Peace of Mind

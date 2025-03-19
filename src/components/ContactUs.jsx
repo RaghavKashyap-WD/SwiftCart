@@ -5,7 +5,7 @@ const ContactUs = () => {
   return (
     <div className="bg-[#191919] px-16 py-28" id="contactus">
       <div className="flex gap-8 items-center">
-        <div className="flex flex-col gap-6 text-white w-[304px] h-[226px]">
+        <div className="flex flex-col gap-6 text-white max-w-[304px] max-h-[226px]">
           <MailIcon size={40} />
           <div className="flex flex-col gap-4">
             <h3 className="text-3xl font-serif">Email</h3>
@@ -16,7 +16,7 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-6 text-white w-[304px] h-[226px]">
+        <div className="flex flex-col gap-6 text-white max-w-[304px] max-h-[226px]">
           <MessageSquareText size={40} />
           <div className="flex flex-col gap-4">
             <h3 className="text-3xl font-serif">Live chat</h3>
@@ -25,7 +25,7 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-6 text-white w-[304px] h-[226px]">
+        <div className="flex flex-col gap-6 text-white max-w-[304px] max-h-[226px]">
           <Phone size={40} />
           <div className="flex flex-col gap-4">
             <h3 className="text-3xl font-serif">Phone</h3>
@@ -34,7 +34,7 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-6 text-white w-[304px] h-[226px]">
+        <div className="flex flex-col gap-6 text-white max-w-[304px] max-h-[226px]">
           <MapPin size={40} />
           <div className="flex flex-col gap-4">
             <h3 className="text-3xl font-serif">Office</h3>

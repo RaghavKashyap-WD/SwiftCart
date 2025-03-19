@@ -3,23 +3,35 @@ import React from "react";
 
 const Footer = ({ logo }) => {
   return (
-    <div className="bg-[#191919] w-full h-[541px] flex flex-col text-white px-16 py-20">
+    <div className="bg-[#191919] max-w-full max-h-[541px] flex flex-col text-white px-16 py-20">
       <div className="flex gap-32">
-        <div className="flex flex-col gap-6 w-[500px] h-[206px]">
-          <img src={logo} alt="logo" className="invert-100 w-48" />
+        <div className="flex flex-col gap-6 max-w-[500px] max-h-[206px]">
+          <img src={logo} alt="logo" className="invert-100 max-w-48" />
           <span className="text-lg mx-2.5">
             Subscribe to our newsletter for the latest updates on features and
             new releases.
           </span>
           <div className="flex gap-4 mx-2.5">
-            <input
-              type="email"
-              placeholder="Your email here..."
-              className="bg-white/10 px-4 py-2 w-[406px] rounded-md outline-none"
-            />
-            <button className="bg-white/10 hover:bg-white/20 py-4 px-7 cursor-pointer rounded-md">
-              Join
-            </button>
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                const email = e.target.email.value;
+                console.log(email);
+              }}
+              className="flex gap-4 mx-2.5"
+            >
+              <input
+                type="email"
+                placeholder="Your email here..."
+                name="email"
+                aria-label="Email"
+                className="bg-white/10 px-4 py-2 max-w-[406px] rounded-md outline-none"
+                required
+              />
+              <button className="bg-white/10 hover:bg-white/20 py-4 px-7 cursor-pointer rounded-md">
+                Join
+              </button>
+            </form>
           </div>
           <span className="text-xs mx-2.5">
             By subscribing, you consent to our Privacy Policy and agree to

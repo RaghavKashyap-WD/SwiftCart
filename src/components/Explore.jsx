@@ -3,8 +3,11 @@ import React from "react";
 const Explore = ({ exploreImg }) => {
   return (
     <div className="bg-[#f2f2f2] py-28 px-16">
-      <div className="flex items-center justify-center gap-20 w-[1312px] h-[640px]">
-        <div className="flex flex-col gap-10 w-[616px] h-[499px]">
+      <div
+        id="shopnow"
+        className="flex items-center justify-center gap-20 max-w-[1312px] max-h-[640px] "
+      >
+        <div className="flex flex-col gap-10 max-w-[616px] max-h-[499px] translate-y-10">
           <div>
             <h3 className="text-xl font-sans font-semibold ">Discover</h3>
           </div>
@@ -36,11 +39,11 @@ const Explore = ({ exploreImg }) => {
             </div>
           </div>
 
-          <div className="w-[184px] h-[44px] flex gap-2">
-            <button className="bg-gray-300 hover:bg-gray-400 transition-colors duration-300 ease-out w-[89px] h-[44px] cursor-pointer text-xl rounded-sm">
+          <div className="max-w-[184px] max-h-[44px] flex gap-2">
+            <button className="bg-gray-300 hover:bg-gray-400 transition-colors duration-300 ease-out max-w-[89px] max-h-[44px] cursor-pointer text-xl rounded-sm">
               Shop
             </button>
-            <button className="w-[89px] h-[44px] cursor-pointer ">
+            <button className="max-w-[89px] max-h-[44px] cursor-pointer ">
               View {">"}
             </button>
           </div>
@@ -50,7 +53,7 @@ const Explore = ({ exploreImg }) => {
           <img
             src={exploreImg}
             alt="img"
-            className="w-[540px] h-[640px] rounded-4xl hover:scale-105 transition-transform duration-500 ease-out cursor-pointer"
+            className="max-w-[540px] max-h-[640px] rounded-4xl hover:scale-105 transition-transform duration-500 ease-out cursor-pointer translate-y-8"
           />
         </div>
       </div>

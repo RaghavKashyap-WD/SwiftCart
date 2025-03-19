@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../public/Logo.png";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
@@ -12,8 +12,10 @@ import Shop from "./components/Shop";
 import FAQs from "./components/FAQs";
 import Footer from "./components/Footer";
 import ContactUs from "./components/ContactUs";
+import MoreLinks from "./components/MoreLinks";
 
 function App() {
+  const [isVisible, setIsVisible] = useState(false);
   const clothesDisplayImg = [
     // { id: 1, url: "../public/ClothesShowcase/img1.jpg" },
     { id: 2, url: "../ClothesShowcase/img2.jpg" },
@@ -28,7 +30,8 @@ function App() {
 
   return (
     <div>
-      <NavBar logo={logo} />
+      <NavBar logo={logo} setIsVisible={setIsVisible} isVisible={isVisible} />
+      <MoreLinks isVisible={isVisible} />
       <Home clotheDisplayImg={clothesDisplayImg} />
       <Features />
       <Discover discoverImg={discoverImg} />

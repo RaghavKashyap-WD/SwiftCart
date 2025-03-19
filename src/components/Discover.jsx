@@ -3,8 +3,8 @@ import React from "react";
 const Discover = ({ discoverImg }) => {
   return (
     <div className="py-28 px-16 bg-[#f2f2f2] ">
-      <div className="flex items-center justify-center gap-[80px] w-[1312px] h-[640px]">
-        <div className="flex flex-col w-[616px] h-[201px] gap-7">
+      <div className="flex items-center justify-center gap-[80px] max-w-[1312px] max-h-[640px]">
+        <div className="flex flex-col max-w-[616px] max-h-[201px] gap-7">
           <h3 className="text-4xl font-serif">
             Discover the unmatched benefits of shopping with us today!
           </h3>
@@ -17,7 +17,7 @@ const Discover = ({ discoverImg }) => {
         <img
           src={discoverImg}
           alt="img"
-          className="w-[616px] h-[640px] rounded-4xl hover:scale-105 transition-transform duration-500 ease-out cursor-pointer"
+          className="max-w-[616px] max-h-[640px] rounded-4xl hover:scale-105 transition-transform duration-500 ease-out cursor-pointer"
         />
       </div>
     </div>

@@ -3,8 +3,11 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <div className="w-full h-[470px] py-28 px-16 bg-[#d8d8d8] flex justify-center items-center">
-      <div className="w-[768px] h-[246px] flex flex-col gap-8">
+    <div
+      id="testimonials"
+      className="max-w-full max-h-[470px] py-28 px-16 bg-[#d8d8d8] flex justify-center items-center"
+    >
+      <div className="max-w-[768px] max-h-[246px] flex flex-col gap-8">
         <div className="flex justify-center items-center gap-3">
           <Star strokeWidth={3} absoluteStrokeWidth />
           <Star strokeWidth={3} absoluteStrokeWidth />
