@@ -13,6 +13,7 @@ import FAQs from "./components/FAQs";
 import Footer from "./components/Footer";
 import ContactUs from "./components/ContactUs";
 import MoreLinks from "./components/MoreLinks";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
