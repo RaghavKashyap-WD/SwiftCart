@@ -4,7 +4,9 @@ import { Box } from "lucide-react";
 const MoreLinks = ({ isVisible }) => {
   return (
     <div
-      className={`bg-[#E0B5DD] max-w-full p-10 flex ${isVisible && "hidden"}`}
+      className={`bg-[#E0B5DD] max-w-full p-10 flex ${
+        isVisible ? "" : "hidden"
+      }`}
     >
       <div className="flex gap-20">
         <div>
